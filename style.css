@@ -1,0 +1,19 @@
+div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
