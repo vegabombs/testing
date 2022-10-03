@@ -3,17 +3,21 @@ div {
     border: 3px solid black;
 }
 
+
+
 .red {
     background-color: red;
     position: relative;
     width: 100%;
+    top: 0;
+    left: 0;
     box-sizing: border-box;
+    
 }
 
 .child {
     background-color: blue;
+    position: absolute;
     width: 100px;
     height: 100px;
-    position: absolute;
-    bottom: 0;
-}
+    position: relative;
