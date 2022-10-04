@@ -1,23 +1,19 @@
-div {
-    height: 200px;
-    border: 3px solid black;
+*{
+    box-sizing: border-box;
 }
 
-
-
-.red {
-    background-color: red;
-    position: relative;
+.container {
     width: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
     
 }
 
-.child {
-    background-color: blue;
-    position: absolute;
+.box {
     width: 100px;
     height: 100px;
-    position: relative;
+    border: 2px solid black;
+}
