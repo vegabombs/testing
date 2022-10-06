@@ -4,7 +4,13 @@
 
 .container {
     border: 4px solid lightgray;
-    padding: 24px 24px 0px 24px;  
+    padding: 80px 24px 56px 24px;  
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto --24px auto;
     display: flex;  
     justify-content: space-between;
 }
@@ -16,6 +22,17 @@
 
 .box-small {
     height: 50px;
+}
+
+.box-tiny {
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .box-wrapper {
